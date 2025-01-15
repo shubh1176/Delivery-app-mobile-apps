@@ -1,0 +1,76 @@
+{
+  "expo": {
+    "name": "Capptain",
+    "slug": "capptain",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.onepost.capptain",
+      "infoPlist": {
+        "NSCameraUsageDescription": "We need access to your camera to capture delivery proofs and document uploads.",
+        "NSPhotoLibraryUsageDescription": "We need access to your photo library to upload documents.",
+        "NSLocationWhenInUseUsageDescription": "We need your location to show you nearby orders and track deliveries.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "We need your location to show you nearby orders and track deliveries even when the app is in background.",
+        "NSLocationAlwaysUsageDescription": "We need your location to show you nearby orders and track deliveries even when the app is in background.",
+        "NSMicrophoneUsageDescription": "We need access to your microphone for video training modules."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.onepost.capptain",
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_BACKGROUND_LOCATION",
+        "RECORD_AUDIO",
+        "VIBRATE",
+        "RECEIVE_BOOT_COMPLETED"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow Capptain to access your photos to upload documents.",
+          "cameraPermission": "Allow Capptain to access your camera to capture delivery proofs."
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow Capptain to use your location to show nearby orders and track deliveries.",
+          "locationAlwaysPermission": "Allow Capptain to use your location in background to track deliveries.",
+          "locationWhenInUsePermission": "Allow Capptain to use your location to show nearby orders."
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification-icon.png",
+          "color": "#ffffff",
+          "sounds": ["./assets/notification.wav"]
+        }
+      ]
+    ]
+  }
+}
