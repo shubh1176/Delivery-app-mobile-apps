@@ -81,8 +81,5 @@ Check out our app demo video: [Watch Demo](https://drive.google.com/file/d/1FniS
 5. Open a pull request
 
 
-## 🌟 Acknowledgments
 
-- Thanks to all contributors who have helped shape OnePost
-- Special thanks to our early users and delivery partners
 - Built with ❤️ using React Native and Expo 
