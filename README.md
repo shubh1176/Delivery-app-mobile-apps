@@ -9,6 +9,10 @@
 
 OnePost is a comprehensive delivery and logistics platform that connects users, delivery partners, and businesses through a seamless mobile experience. Built with React Native and Expo, it offers a robust solution for various delivery needs.
 
+## 🎥 Demo
+
+Check out our app demo video: [Watch Demo](https://drive.google.com/file/d/1FniSZCFRHCQufArEOjYCsd_cl3FbakjQ/view?usp=sharing)
+
 ## ✨ Key Features
 
 ### 📱 User App
