@@ -7,7 +7,7 @@
 
 ## 🚀 Overview
 
-OnePost is a comprehensive delivery and logistics platform that connects users, delivery partners, and businesses through a seamless mobile experience. Built with React Native and Expo, it offers a robust solution for various delivery needs.
+OnePost (purely a Demo of Unicapp) is a comprehensive delivery and logistics platform that connects users, delivery partners, and businesses through a seamless mobile experience. Built with React Native and Expo, it offers a robust solution for various delivery needs.
 
 ## 🎥 Demo
 
